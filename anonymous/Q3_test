@@ -1,0 +1,11 @@
+List<Map<String,Object>> entries = new List<Map<String,Object>>{
+    new Map<String,Object>{'Name' => 'MAR', 'AnnualRevenue' => 5500},
+    new Map<String,Object>{'Name' => 'TU', 'AnnualRevenue' => -10},
+    new Map<String,Object>{'Name' => '', 'AnnualRevenue' => 56},
+    new Map<String,Object>{'Name' => '', 'AnnualRevenue' => null },
+    new Map<String,Object>{'Name' => 'CARLITO', 'AnnualRevenue' => 0}
+};
+
+List<String> result = SolutionQ3.validateAccounts(entries);
+		
+System.debug(result);
